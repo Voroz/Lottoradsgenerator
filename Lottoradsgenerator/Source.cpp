@@ -31,7 +31,7 @@ void getLotto(int(&tal)[7]){
 // Skriver ut en lottorad
 void main(){
 	srand(time(NULL));
-	//ragnarsTest(”gggg 8787”);
+	//ragnarsTest(”Jonny 2472”);
 	int row[7];
 	getLotto((row));
 	cout << "Lottorad: ";
