@@ -51,7 +51,7 @@ Result lottoExperiment(int rad[7], int numberOfWeeks){
 			res.triesUntilMaxResult = i + 1;
 		}
 	}
-	res.averageResult = sum / numberOfWeeks;
+	res.averageResult = (float)sum / numberOfWeeks;
 
 	return res;
 }

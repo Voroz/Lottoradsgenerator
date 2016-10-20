@@ -4,9 +4,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <string>
-#include <sstream>
-#include <vector>	// Använder bara för att göra användar input smidigare.
 
 #include "stdafx.h"
 
