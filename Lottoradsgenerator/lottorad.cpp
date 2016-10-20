@@ -1,6 +1,13 @@
 // lottorad.cpp : Defines the entry point for the console application.
 //
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <string>
+#include <sstream>
+#include <vector>	// Använder bara för att göra användar input smidigare.
+
 #include "stdafx.h"
 
 #include "lottorad.h"
@@ -34,12 +41,11 @@ void getLotto(int tal[7]){
 
 
 
-
-
 void main()
 {
 	setlocale(LC_ALL, "swedish");
 	ragnarsTest("Jonny 2472");
+	srand(time(NULL));
 
 	int rad[7] = { 0 };
 	getLotto((rad));
